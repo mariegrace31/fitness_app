@@ -14,6 +14,9 @@ const Benefits = ({setSelectedPage}: Props) => {
     <motion.div
     onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}
     >
+      <div>
+        <h1 className="basis-3/5 font-montserrat text-3xl font-bold "></h1>
+      </div>
 
     </motion.div>
   </section>
