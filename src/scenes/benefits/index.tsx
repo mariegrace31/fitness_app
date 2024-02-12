@@ -79,6 +79,40 @@ const Benefits = ({setSelectedPage}: Props) => {
           />
         ))}
       </motion.div>
+
+      {/* GRAPHICS AND DESCRIPTION */}
+      <div>
+        {/* GRAPHIC */}
+        <img />
+
+        {/* DESCRIPTION */}
+        <div>
+          {/* TITLE */}
+          <div className="relative">
+            <div className="before:absolute before:-top-20 befor:-left-20 before:z-[1] beforre:content-abstractwaves">
+              <div>
+                <HText>MILLIONS OF HAPPY MEMBERS GETTING{" "}</HText>
+                <span className="text-primary-500">FIT</span>
+              </div>
+            </div>
+          </div>
+          {/* DESCRIPTION */}
+          <div>
+            <p className="my-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, obcaecati illum perspiciatis
+              enim deserunt ipsam repellat ad, sapiente odit maiores asperiores magni tempore libero! Quo perspiciatis
+              neque minima voluptatem iusto! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+            <p className="mb-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus architecto nulla debitis quaerat vel harum
+              quo error nobis labore adipisci. Ullam atque deserunt ducimus eveniet praesentium, fugiat est similique voluptatem?
+             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, dolore veniam. Illum ab perferendis voluptatem deserunt
+             ullam porro enim cum mollitia? Iure suscipit sit assumenda aut vero tenetur voluptates exercitationem.
+            </p>
+          </div>
+          {/* BUTTON */}
+
+        </div>
+      </div>
     </motion.div>
   </section>
 }
