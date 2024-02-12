@@ -1,10 +1,10 @@
 import HText from "@/shared/HText";
-import { SelectedPage } from "@/shared/types"
+import { BenefitType, SelectedPage } from "@/shared/types"
 import { HomeModernIcon, UserGroupIcon, AcademicCapIcon } from "@heroicons/react/24/solid"
 import { motion } from "framer-motion";
 
 
-const benefits: Array<Object> = [
+const benefits: Array<BenefitType> = [
   {
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
