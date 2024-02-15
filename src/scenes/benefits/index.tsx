@@ -95,14 +95,32 @@ const Benefits = ({setSelectedPage}: Props) => {
           {/* TITLE */}
           <div className="relative">
             <div className="before:absolute before:-top-20 befor:-left-20 before:z-[1] beforre:content-abstractwaves">
-              <div>
+              <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.5 }}
+              variants={{
+                hidden: { opacity: 0, x: 50 },
+                visible: { opacity: 1, x: 0},
+              }}
+              >
                 <HText>MILLIONS OF HAPPY MEMBERS GETTING{" "}</HText>
                 <span className="text-primary-500">FIT</span>
-              </div>
+              </motion.div>
             </div>
           </div>
           {/* DESCRIPTION */}
-          <div>
+          <motion.div
+           initial="hidden"
+           whileInView="visible"
+           viewport={{ once: true, amount: 0.5 }}
+           transition={{ delay: 0.2, duration: 0.5 }}
+           variants={{
+             hidden: { opacity: 0, x: 50 },
+             visible: { opacity: 1, x: 0},
+           }}
+          >
             <p className="my-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, obcaecati illum perspiciatis
               enim deserunt ipsam repellat ad, sapiente odit maiores asperiores magni tempore libero! Quo perspiciatis
               neque minima voluptatem iusto! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -113,7 +131,7 @@ const Benefits = ({setSelectedPage}: Props) => {
              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, dolore veniam. Illum ab perferendis voluptatem deserunt
              ullam porro enim cum mollitia? Iure suscipit sit assumenda aut vero tenetur voluptates exercitationem.
             </p>
-          </div>
+          </motion.div>
           {/* BUTTON */}
           <div className="realtive mt-16">
             <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles">
