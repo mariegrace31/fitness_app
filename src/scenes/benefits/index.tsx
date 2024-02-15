@@ -3,7 +3,8 @@ import { BenefitType, SelectedPage } from "@/shared/types"
 import { HomeModernIcon, UserGroupIcon, AcademicCapIcon } from "@heroicons/react/24/solid"
 import { motion } from "framer-motion";
 import Benefit from "./Benefit";
-
+import ActionButton from "@/shared/ActionButton";
+import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png";
 
 const benefits: Array<BenefitType> = [
   {
@@ -81,9 +82,13 @@ const Benefits = ({setSelectedPage}: Props) => {
       </motion.div>
 
       {/* GRAPHICS AND DESCRIPTION */}
-      <div>
+      <div className="mt-16 items-center justify-between gap-20 md:mt-28 md:flex">
         {/* GRAPHIC */}
-        <img />
+        <img 
+        className="mx-auto"
+        alt="benefits-page-graphic"
+        src={BenefitsPageGraphic}
+        />
 
         {/* DESCRIPTION */}
         <div>
@@ -110,7 +115,13 @@ const Benefits = ({setSelectedPage}: Props) => {
             </p>
           </div>
           {/* BUTTON */}
-
+          <div className="realtive mt-16">
+            <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles">
+              <ActionButton setSelectedPage={setSelectedPage}>
+                Join Now
+              </ActionButton>
+            </div>
+          </div>
         </div>
       </div>
     </motion.div>
