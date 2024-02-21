@@ -88,6 +88,7 @@ const ContactUs = ({ setSelectedPage}: Props) => {
                 pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
               })}
             />
+            
             {errors.email && (
               <p className="mt-1 text-primary-500">
                 {errors.email.type === "required" && "This field is required."}
@@ -105,6 +106,7 @@ const ContactUs = ({ setSelectedPage}: Props) => {
                 maxLength: 2000,
               })}
             />
+
             {errors.message && (
               <p className="mt-1 text-primary-500">
                 {errors.message.type === "required" && "This field is required."}
@@ -116,7 +118,7 @@ const ContactUs = ({ setSelectedPage}: Props) => {
              type="submit"
              className="mt-5 rounded-lg bg-secondary-500 px-20 py-3 transition duration-500 hover:text-white"
             >
-              SUBMIT
+               SUBMIT
             </button>
 
           </form>
