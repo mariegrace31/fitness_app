@@ -123,6 +123,11 @@ const ContactUs = ({ setSelectedPage}: Props) => {
 
           </form>
         </motion.div>
+        <motion.div
+          className="realtive mt-16 basis-2/5"
+        >
+
+        </motion.div>
       </div>
     </motion.div>
   </section>
