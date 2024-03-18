@@ -50,6 +50,16 @@ This app offers fitness classes.
 <br>
 
 ---
+
+<!-- FUTURE FEATURES -->
+### **Future Features 🏷️** <a name="Future features"></a>
+
+-Add tge backend part
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br>
+
+---
 <!-- LIVE DEMO -->
 ## <b>Live Demo 🚀</b><a name="live-demo"></a>
 
