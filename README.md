@@ -63,7 +63,7 @@ This app offers fitness classes.
 <!-- LIVE DEMO -->
 ## <b>Live Demo 🚀</b><a name="live-demo"></a>
 
-If you want to check the live demo of this proje, please click 😊 [here](https://yourfitnessapp.netlify.app/).
+If you want to check the live demo of this project, please click 😊 [here](https://yourfitnessapp.netlify.app/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
