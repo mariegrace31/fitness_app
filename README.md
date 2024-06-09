@@ -54,7 +54,7 @@ This app offers fitness classes.
 <!-- FUTURE FEATURES -->
 ### **Future Features 🏷️** <a name="Future features"></a>
 
--Add the backend part
+-Add the backend
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
